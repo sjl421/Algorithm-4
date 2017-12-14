@@ -55,5 +55,5 @@ def red_envelope(cents, people_number):
 
 # test
 if __name__ == '__main__':
-    result = red_envelope(100, 10)
+    result = red_envelope(100, 8)
     print (result, sum(result))
